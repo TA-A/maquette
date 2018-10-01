@@ -1,0 +1,39 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+nav{
+	margin:0px;
+	padding:0px;
+}
+body{
+	margin-left: 400px;margin-right: 300px
+}
+.blueasy{
+	position: relative;
+	left:200px;
+}
+
+
+ul li{
+	display: inline;
+	padding:0px 10px 0px 50px;
+
+}
+.blueasy, .menu{
+	display:inline;
+
+}
+span{
+	color:blue;
+}
+.coffee, .instant, .serious, .frame
+{
+	display:inline-block;
+	font-size:9px;
+}
+.pictures{
+	position:relative;
+	left:400px;
+
+}
