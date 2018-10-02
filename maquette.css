@@ -102,11 +102,7 @@ body{
 span{
 	color:blue;
 }
-.coffee, .instant, .serious, .frame
-{
-	display:inline-block;
-	font-size:9px;
-}
+
 .epis{
 	background-image:url("HEROimg.jpg");
 width:2000px;height:300px;	
@@ -128,12 +124,56 @@ width:2000px;height:300px;
 .twit{
 	margin-left:377px;
 }
-.container3{
-	background-image:url("SERVICESbackground.jpg")
+.fond{
+	background-image:url("SERVICESbackground.jpg");
 	
 	
 	
 }
 .coffee{
+	height:100px
+}
+.container4{
+	background-image: url("PORTFOLIObackground.jpg");
+
+}
+.blanc{
+	margin-left: 377px;
+	height:200px;
+}
+.container5{
+	background-image: url("NAVBAR.png")
+}
+.defaut{
 	margin-left: 377px
+}
+.container6{
+	background-image: url("SERVICESbackground.jpg");
+}
+.container7{
+	background-image: url("WHO-ISbackground.jpg");
+}
+.john{
+	margin-left: 377px
+}
+.container8
+{background-image: url("PORTFOLIObackground.jpg")}
+
+.container9{
+	background-image: 
+}
+	
+.container {
+	width: 1170px;
+	margin:0 auto;
+	height:100%;
+	font-size:0px;
+}
+.block
+{
+	height: 100%;
+	display:inline-block;
+	font-size:9px;
+	width:24%;
+	font-size:14px;
 }
