@@ -1,0 +1,378 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+nav{
+	margin:0px;
+	padding:0px;
+}
+
+
+
+div{
+	width:1170px;
+}
+
+#blueasy{
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: white;
+	padding-top: 65px;
+}
+
+span{
+	color:rgb(75,202,255);
+}
+
+.men{
+	display:inline-block;
+	font-size: 14px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bolder;
+	color: white;
+	margin-left:540px;
+	width:510px;
+}
+
+.fond{
+	background-image: url("NAVBARimages/NAVBAR.png");
+}
+
+h2{
+	font-size:30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight:lighter;
+	color: white;
+	padding-top: 80px;
+}
+
+.container{
+	margin-left:375px;
+	font-size:0px;
+	width: 130px;
+	height: 142px;
+}
+
+.fond2{
+	background-image: url("HEROimages/HEROimg.jpg");
+	background-position: center;
+}
+
+.container2{
+	margin-left:auto;
+	margin-right: auto;
+	font-size:0px;
+	width: 990px;
+	height: 800px;
+}
+
+.look{
+	text-align: center;
+	font-size: 42px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: lighter;
+	color: white;
+	padding-top: 412px;
+}
+
+.for{
+	text-align: center;
+	font-size: 42px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: lighter;
+	color: white;
+	padding-top: 34px;
+}
+
+.fond3{
+	background-image: url("SERVICEimages/SERVICESbackground.jpg");
+}
+
+.container3{
+	margin-left:auto;
+	margin-right: auto;
+	font-size:0px;
+	height: 400px;
+}
+
+.cologne{
+	display:inline-block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 270px;
+	padding-top: 50px;
+}
+
+.titrecologne{
+	text-align:left;
+	font-size:24px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	color: white;
+	padding-top: 25px;
+	margin-left:none;
+	margin-right:none;
+}
+
+.textcologne{
+	text-align:left;
+	font-size:12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 500;
+	color: white;
+	padding-top: 20px;
+	margin-left:none;
+	margin-right:none;
+}
+
+.fond4{
+	background-image: url("PORTFOLIOimages/PORTFOLIObackground.jpg");
+}
+
+.container4{
+	margin-left:auto;
+	margin-right: auto;
+	font-size:0px;
+	height: 845px;
+}
+
+.portfolio{
+	color: black;
+	width: 150px;
+}
+.menuportfolio{
+	width:545px;
+	color: rgb(105,116,123);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	margin-left: 645px;
+	
+}
+
+.pictures{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fond5{
+	background: rgb(81, 95, 103);
+}
+
+.container5{
+	margin-left:auto;
+	margin-right: auto;
+	font-size:0px;
+	height: 475px;
+}
+
+.just{
+	color: white;
+	font-size:14px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight:normal;
+}
+
+.visit{
+	color: white;
+	font-size:14px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight:bold;
+	margin-left: 40px;
+}
+
+.vimeo{
+	float:right;
+}
+
+.fond6{
+	background-image: url("TWITTERimages/TWITTERbackground.jpg");
+}
+
+.container6{
+	margin-left:auto;
+	margin-right: auto;
+	font-size:0px;
+	height: 303px;
+}
+
+.twit{
+	color: white;
+	font-size:28px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight:lighter;
+}
+
+.weight{
+	font-weight: 600;
+	color: white;
+}
+
+.fond7{
+	background-image: url("WHO-ISimages/WHO-ISbackground.jpg");
+}
+
+.container7{
+	margin-left:auto;
+	margin-right: auto;
+	font-size:0px;
+	height: 503px;
+}
+
+.john{
+	display:inline-block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 570px;
+	padding-top: 50px;
+	color: white;
+	font-size:14px;
+	font-weight:normal;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.john2{
+	display:inline-block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 570px;
+	padding-top: 50px;
+	color: white;
+	font-size:14px;
+	font-weight:normal;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fond8{
+	background-image: url("TESTIMONIALSimages/TESTIMONIALSbackground.jpg");
+}
+
+.container8{
+	margin-left:auto;
+	margin-right: auto;
+	font-size:0px;
+	height: 360px;
+}
+
+.testimonials{
+	color: black;
+	width: 190px;
+}
+
+.applicake{
+	color:rgb(81, 95, 103);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 28px;
+	font-weight: lighter;
+	padding-top:50px;
+}
+
+.walter{
+	color:rgb(75,202,255);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top:45px;
+}
+
+.fond9{
+	background-image: url("CONTACTimages/CONTACTbackground.jpg");
+}
+
+.container9{
+	margin-left:auto;
+	margin-right: auto;
+	font-size:0px;
+	height: 815px;
+}
+
+ul li{
+	display: inline;
+	padding-right:10px
+}
+
+form{
+	font-size:14px;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+#full{
+	width:470px;
+	background: transparent;
+	color: white;
+	outline: none;
+}
+
+#email{
+	width:470px;
+	background: transparent;
+	color: white;
+	outline: none;
+}
+
+#message{
+	width:1170px;
+	height: 220px;
+	background: transparent;
+	color: white;
+	outline: none;
+}
