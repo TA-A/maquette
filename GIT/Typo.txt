@@ -1,0 +1,13 @@
+Bitter Bold font
+
+liende la page :
+
+https://fonts.google.com/specimen/Bitter?selection.family=Bitter
+
+html :
+
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+
+css :
+
+font-family: 'Bitter', serif;
